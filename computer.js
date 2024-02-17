@@ -1,4 +1,4 @@
-// Implement a function that takes the user's choice (rock, paper, or scissors) as input and determines the winner against the computer's randomly generated choice.
+// Implement a function that takes the user's choice (rock, paper, or scissors) as input and determines the winner against the computer's randomly generated choice.+
 function playGame(userChoice) {
     const choices = ['rock', 'paper', 'scissors'];
     const computerChoice = choices[Math.floor(Math.random() * choices.length)];
@@ -16,3 +16,6 @@ function playGame(userChoice) {
     }
 }
 
+
+const userChoice = 'rock'; 
+console.log(playGame(userChoice));
